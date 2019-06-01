@@ -1,0 +1,16 @@
+Source: com.github.omig12.calcapp
+Section: x11
+Priority: extra
+Maintainer: Israel O. Dilan-Pantojas <israelodilan@gmail.com>
+Build-Depends: debhelper (>= 10.5.1),
+               gettext,
+               libgtk-3-dev (>= 3.10),
+               meson,
+               valac (>= 0.28.0)
+Standards-Version: 4.1.1
+
+Package: com.github.omig12.calcapp
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: A simple calculator
+A simple calculator where you pick the operator (*,/,+,-) and enter two numeric inputs, then press a button to calculate.

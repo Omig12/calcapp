@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2019 Israel O. Dilan-Pantojas <israelodilan@gmail.com>-->
+<component type="desktop">
+    <id>com.github.omig12.calcapp</id>
+    <metadata_license>CC0</metadata_license>
+    <name>Simple Calculator</name>
+    <summary>Just calculate it!</summary>
+    <description>
+        <p>A simple calculator where you pick the operator (*,/,+,-) and enter two numeric inputs, then press a button to calculate.</p>
+    </description>
+
+    <custom>
+        <value key="x-appcenter-color-primary">#603461</value>
+        <value key="x-appcenter-color-primary-text">rgb(255,255,255)</value>
+        <value key="x-appcenter-suggested-price">0</value>
+    </custom>
+</component>

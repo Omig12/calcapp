@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Simple Calculator
+GenericName=Simple Calculator
+Comment=A minimal simple calculator, written in Vala and GTK.
+Categories=Utility;
+Exec=com.github.omig12.calcapp
+Icon=accessories-calculator
+Terminal=false
+Type=Application
+Keywords=Simple;Calculator;
+X-GNOME-UsesNotifications=true

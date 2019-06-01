@@ -16,10 +16,6 @@ public class MyApp : Gtk.Application {
          window.border_width = 10;
          window.title = "Simple Calculator";
 
-         // var header = new Gtk.HeaderBar();
-         // header.set_show_close_button(true);
-         // window.set_titlebar(header);
-
          var grid = new Gtk.Grid();
          // grid.orientation  = Gtk.Orientation.VERTICAL;
          grid.row_spacing = 10;
@@ -31,7 +27,6 @@ public class MyApp : Gtk.Application {
          var input1 = new Gtk.Entry();
          input1.placeholder_text = "number 1";
          input1.set_visibility(true);
-         // input1.primary_icon_gicon = icon;
          input1.set_icon_from_gicon(Gtk.EntryIconPosition.SECONDARY, icon);
          grid.attach(input1, 0, 0, 1, 1);
 
@@ -53,7 +48,6 @@ public class MyApp : Gtk.Application {
          var input2 = new Gtk.Entry();
          input2.placeholder_text = "number 2";
          input2.set_visibility(true);
-         // input2.primary_icon_gicon = icon;
          input2.set_icon_from_gicon(Gtk.EntryIconPosition.SECONDARY, icon);
          grid.attach_next_to(input2, op, Gtk.PositionType.RIGHT, 1, 1);
 
