@@ -1,6 +1,6 @@
 # Simple Calculator
 
-[Simple Calculator](img/simple_calculator.png)
+![Simple Calculator](img/simple_calculator.png)
 
 ----------------------------------------
 
