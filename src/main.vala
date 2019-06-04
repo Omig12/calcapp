@@ -43,6 +43,7 @@ public class MyApp : Gtk.Application {
          grid.attach_next_to(sub, div, Gtk.PositionType.BOTTOM, 1, 1);
 
          var op  = new Gtk.Label ("?");
+         op.set_markup("<b>"+"?"+"</b>");
          grid.attach_next_to(op, input1, Gtk.PositionType.RIGHT, 1, 1);
 
          var input2 = new Gtk.Entry();
@@ -52,6 +53,7 @@ public class MyApp : Gtk.Application {
          grid.attach_next_to(input2, op, Gtk.PositionType.RIGHT, 1, 1);
 
          var eq  = new Gtk.Label ("=");
+         eq.set_markup("<span foreground='purple'><b>"+"="+"</b></span>");
          grid.attach_next_to(eq, input2, Gtk.PositionType.RIGHT, 1, 1);
 
          var label  = new Gtk.Label ("");
@@ -72,7 +74,7 @@ public class MyApp : Gtk.Application {
             sum.sensitive = true;
             sub.sensitive = true;
             div.sensitive = true;
-            op.set_text("*");
+            op.set_markup("<span foreground='green'><b>"+"*"+"</b></span>");
             oper = 1;
          });
 
@@ -82,7 +84,7 @@ public class MyApp : Gtk.Application {
             sum.sensitive = false;
             sub.sensitive = true;
             div.sensitive = true;
-            op.set_text("+");
+            op.set_markup("<span foreground='blue'><b>"+"+"+"</b></span>");
             oper = 2;
          });
 
@@ -92,7 +94,7 @@ public class MyApp : Gtk.Application {
              sum.sensitive = true;
              sub.sensitive = true;
              div.sensitive = false;
-             op.set_text("/");
+             op.set_markup("<span foreground='pink'><b>"+"/"+"</b></span>");
              oper = 3;
           });
 
@@ -102,7 +104,7 @@ public class MyApp : Gtk.Application {
               sum.sensitive = true;
               sub.sensitive = false;
               div.sensitive = true;
-              op.set_text("-");
+              op.set_markup("<span foreground='red'><b>"+"-"+"</b></span>");
               oper = 4;
            });
 

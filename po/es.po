@@ -21,11 +21,11 @@ msgstr ""
 #: data/com.github.omig12.calcapp.desktop.in:4
 #: data/com.github.omig12.calcapp.appdata.xml.in:6
 msgid "Simple Calculator"
-msgstr ""
+msgstr "Calculadora Sencilla"
 
 #: data/com.github.omig12.calcapp.desktop.in:5
 msgid "A minimal simple calculator, written in Vala and GTK."
-msgstr ""
+msgstr "Una calculadora minimal sencilla, escrita en Vala y Gtk."
 
 #: data/com.github.omig12.calcapp.desktop.in:8
 msgid "accessories-calculator"
@@ -33,14 +33,15 @@ msgstr ""
 
 #: data/com.github.omig12.calcapp.desktop.in:11
 msgid "Simple;Calculator;"
-msgstr ""
+msgstr "Calculadora;Sencilla;"
 
 #: data/com.github.omig12.calcapp.appdata.xml.in:7
 msgid "Just calculate it!"
-msgstr ""
+msgstr "Solo calculalo!"
 
 #: data/com.github.omig12.calcapp.appdata.xml.in:9
 msgid ""
 "A simple calculator where you pick the operator (*,/,+,-) and enter two "
 "numeric inputs, then press a button to calculate."
-msgstr ""
+msgstr "Una calculadora sencilla donde usted escoge el operador (*,/,+,-) e ingresa dos "
+"entradas numericas, entonces presiona un boton para calcularlo."
